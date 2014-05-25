@@ -1,12 +1,18 @@
 YQL_js_Stock_Ticker_Bar
 =======================
 
-This tool uses Javascript to pull data like price and other stock details for presentation via a .json call to Yahoo finance using YQL.
+This tool uses Javascript to pull data (like price and other stock details) for presentation via a ajax/.json YQL call to Yahoo finance.
 
-In the file I have examples that are calling indexes (indicies) like the Russell 2000, the S&P 500, NASDAQ 100 and some other single ticker symbols.
+The file has examples that are currently calling indexes (indicies) like the Russell 2000, the S&P 500, NASDAQ 100 and some other single ticker symbols.
 
-The json brings back structured data of which I am presenting The title of the Ticker (name), the current price and the percentage changed.
+I am feeding a comma seperated list of stock symbols to return:
+The title of the Ticker (name of index)
+The current price
+The percentage change
 
-The CSS creates a red/green block behind the presented data and even colors the percentage green for positive percentage moves and red for negative moves.
+There are more stock details in the .json structure that can be used for other things like volume, daily highs and lows, opening price, etc.
 
-This code is free to use. Feel free to fork it amd make something specific for yourself.
+The CSS creates a light red/green block behind the data and colors the font black plus dar red/green on the percentage text. 
+I have a working example on <a href="http://hijnks.com" target="_blank">hiJnks.com</a> if you want to see it in action.
+
+This code is free to use. Feel free to fork it and make something fun for yourself.
