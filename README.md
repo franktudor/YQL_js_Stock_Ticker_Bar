@@ -13,6 +13,5 @@ The percentage change
 There are more stock details in the .json structure that can be used for other things like volume, daily highs and lows, opening price, etc.
 
 The CSS creates a light red/green block behind the data and colors the font black plus dar red/green on the percentage text. 
-I have a working example on <a href="http://hijnks.com" target="_blank">hiJnks.com</a> if you want to see it in action.
 
 This code is free to use. Feel free to fork it and make something fun for yourself.
