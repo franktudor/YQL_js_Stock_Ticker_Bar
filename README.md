@@ -1,4 +1,4 @@
-YQL_js_Stock_Ticker_Bar
+YQL JS Stock Ticker Bar
 =======================
 
 This tool uses Javascript to pull data (like price and other stock details) for presentation via a ajax/.json YQL call to Yahoo finance.
